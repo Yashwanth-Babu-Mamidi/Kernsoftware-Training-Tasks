@@ -1,0 +1,182 @@
+---
+
+## 🟦 Slide 1: Title Slide
+
+**SOLID Principles in Object-Oriented Design**
+---
+
+## 🟦 Slide 2: Introduction to SOLID Principles
+
+* SOLID is a set of **5 object-oriented design principles**
+* Helps in writing:
+
+  * Clean code
+  * Maintainable software
+  * Scalable applications
+* Introduced by **Robert C. Martin (Uncle Bob)**
+
+---
+
+## 🟦 Slide 3: SOLID Acronym
+
+* **S** – Single Responsibility Principle
+* **O** – Open/Closed Principle
+* **L** – Liskov Substitution Principle
+* **I** – Interface Segregation Principle
+* **D** – Dependency Inversion Principle
+
+---
+
+## 🟦 Slide 4: Single Responsibility Principle (SRP)
+
+### Definition:
+
+A class should have **only one reason to change**.
+
+### Real-Life Example: Restaurant
+
+* Chef → cooks food
+* Waiter → serves food
+* Cashier → handles billing
+
+❌ One person doing all jobs
+✅ Each person has **one responsibility**
+
+### Benefit:
+
+* Easy maintenance
+* Better organization
+
+---
+
+## 🟦 Slide 5: Open/Closed Principle (OCP)
+
+### Definition:
+
+Software entities should be **open for extension** but **closed for modification**.
+
+### Real-Life Example: Mobile Phone
+
+* New apps can be installed
+* Phone OS remains unchanged
+
+❌ Modifying OS for every new app
+✅ Extend functionality without changing existing system
+
+### Benefit:
+
+* Reduces risk of bugs
+* Improves flexibility
+
+---
+
+## 🟦 Slide 6: Liskov Substitution Principle (LSP)
+
+### Definition:
+
+Subclasses should be replaceable for their parent classes without affecting correctness.
+
+### Real-Life Example: Birds
+
+* Sparrow → can fly
+* Crow → can fly
+* Penguin → cannot fly
+
+❌ Treating penguin as a flying bird
+✅ Penguin should not replace flying birds
+
+### Benefit:
+
+* Correct use of inheritance
+* Reliable behavior
+
+---
+
+## 🟦 Slide 7: Interface Segregation Principle (ISP)
+
+### Definition:
+
+Clients should not be forced to depend on methods they do not use.
+
+### Real-Life Example: Office Machines
+
+* Printer → prints
+* Scanner → scans
+* Fax → faxes
+
+❌ One machine forced to do everything
+✅ Separate machines for separate tasks
+
+### Benefit:
+
+* Less complexity
+* More flexibility
+
+---
+
+## 🟦 Slide 8: Dependency Inversion Principle (DIP)
+
+### Definition:
+
+High-level modules should not depend on low-level modules.
+Both should depend on **abstractions**.
+
+### Real-Life Example: Electrical Switch
+
+* Switch works with bulb, fan, or tube light
+* Uses a standard socket
+
+❌ Switch fixed to one bulb
+✅ Switch depends on abstraction (device)
+
+### Benefit:
+
+* Loose coupling
+* Easy replacement
+
+---
+
+## 🟦 Slide 9: Advantages of SOLID Principles
+
+* Improved code quality
+* Easy maintenance
+* Better scalability
+* Reduced code dependency
+* Easier testing and debugging
+
+---
+
+## 🟦 Slide 10: Why SOLID is Important
+
+* Used in real-world software development
+* Helps teams collaborate efficiently
+* Makes applications flexible to change
+* Foundation of clean architecture
+
+---
+
+## 🟦 Slide 11: Summary Table
+
+| Principle | Real-Life Meaning                  |
+| --------- | ---------------------------------- |
+| SRP       | One person, one job                |
+| OCP       | Add features without changing base |
+| LSP       | Correct replacement of objects     |
+| ISP       | No unnecessary responsibilities    |
+| DIP       | Plug-and-play components           |
+
+---
+
+## 🟦 Slide 12: Conclusion
+
+* SOLID principles guide **good software design**
+* Improve readability, maintainability, and flexibility
+* Essential for professional developers
+
+---
+
+## 🟦 Slide 13: Thank You
+
+**Questions?**
+
+---
